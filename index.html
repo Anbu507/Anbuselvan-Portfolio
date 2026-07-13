@@ -68,10 +68,10 @@
     <div style="max-width:1120px;margin:0 auto;display:grid;grid-template-columns:1fr 280px;gap:56px;align-items:center;position:relative;">
       <div style="animation:fadeUp 0.7s ease both;">
         <h1 style="font-family:'Newsreader',serif;font-size:64px;line-height:1.05;font-weight:500;margin:0 0 22px;">
-          Computer Science student building <em style="font-style:italic;color:oklch(72% 0.15 260);">full&#8209;stack</em> &amp; security&#8209;minded software.
+          Computer Science graduate building <em style="font-style:italic;color:oklch(72% 0.15 260);">full&#8209;stack</em> &amp; security&#8209;minded software.
         </h1>
         <p style="font-size:18px;line-height:1.6;color:oklch(85% 0.008 90);max-width:560px;margin:0 0 34px;">
-          Final-year B.E. CSE student with hands-on experience across the MERN stack, Python/Django, and cybersecurity fundamentals &mdash; seeking to collaborate with experienced teams on impactful, real-world products.
+          B.E. Computer Science and Engineering graduate with hands-on experience across the MERN stack, Python/Django, and cybersecurity fundamentals. Currently developing embedded systems software at Qmax Systems, and looking to collaborate with experienced teams on impactful, real-world products.
         </p>
         <div style="display:flex;gap:14px;flex-wrap:wrap;">
           <a href="#projects" onClick="{{ onNavClick }}" style="background:oklch(97% 0.005 90);color:oklch(16% 0.012 260);font-weight:600;font-size:15px;padding:13px 26px;border-radius:100px;transition:transform 0.25s ease, box-shadow 0.25s ease;display:inline-block;" style-hover="transform:translateY(-3px);box-shadow:0 10px 22px oklch(0% 0 0 / 0.35);">View projects</a>
@@ -93,7 +93,7 @@
       </div>
       <div style="max-width:680px;">
         <p style="font-size:22px;line-height:1.55;font-family:'Newsreader',serif;font-weight:400;color:oklch(22% 0.01 260);margin:0 0 28px;">
-          I'm a Computer Science student who likes building things people actually use &mdash; websites, apps, and tools that solve real problems.
+          I'm a Computer Science graduate who likes building things people actually use &mdash; websites, apps, and tools that solve real problems.
         </p>
         <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:24px;">
           <div>
@@ -311,7 +311,7 @@ class Component extends DCLogic {
 
   animateStats() {
     const duration = 1100;
-    const targets = { internships: 3, projects: 3, year: 2026 };
+    const targets = { internships: 2, projects: 3, year: 2026 };
     const start = performance.now();
     const ease = (t) => 1 - Math.pow(1 - t, 3);
     const tick = (now) => {
@@ -433,23 +433,23 @@ class Component extends DCLogic {
       skillGroups: [
         { label: 'Technical', items: ['Python', 'JavaScript', 'Java', 'C', 'C++', 'SQL', 'Node.js', 'HTML', 'CSS', 'Bootstrap'] },
         { label: 'Databases', items: ['MySQL', 'MongoDB'] },
-        { label: 'Soft skills', items: ['Punctuality', 'Resilience', 'Cooperation', 'Problem solving', 'Adaptability', 'Attentive'] },
+        { label: 'Soft skills', items: ['Punctuality', 'Resilience', 'Cooperation'] },
       ],
       education: this.decorateLogos([
-        { degree: 'B.E. Computer Science and Engineering', school: 'Akshaya College of Engineering and Technology, Coimbatore', period: '2022 \u2013 2026', score: '76.5%', logo: './src/logo-akshaya.png?v=2', url: 'https://www.acetcbe.edu.in/' },
+        { degree: 'B.E. Computer Science and Engineering', school: 'Akshaya College of Engineering and Technology, Coimbatore', period: '2022 \u2013 2026', score: 'CGPA: 77%', logo: './src/logo-akshaya.png?v=2', url: 'https://www.acetcbe.edu.in/' },
         { degree: 'HSC', school: 'Sri Venkateshwara Matriculation Higher Secondary School, Salem', period: '2021 \u2013 2022', score: '87%' },
         { degree: 'SSLC', school: 'Little Flower Matriculation Higher Secondary School, Salem', period: '2019 \u2013 2020', score: '83%' },
       ]),
       certifications: [
-        'Python (Basic) \u2014 HackerRank',
-        'MERN Stack Certification',
+        'Python (HackerRank)',
+        'MERN Stack Certification (VAP)',
         'Professional Video Editing Certification',
       ],
       achievements: [
-        'Golden Badge \u2014 HackerRank Python',
-        'Winner, Coding Contest 1 & 2 \u2014 ACET Coding Club',
-        'Winner, Promo Contest \u2014 THARIKA 2024',
-        'Winner, Promo Contest \u2014 Tech-Fest 2025',
+        'Golden Badge in Python on HackerRank',
+        'Winner, Coding Contest 1 & 2 (ACET Coding Club)',
+        'Winner, Promo Contest (THARIKA 2024)',
+        'Winner, Promo Contest (Tech-Fest 2025)',
       ],
     };
   }
